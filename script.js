@@ -129,6 +129,15 @@ function makePick() {
 
 function loadOdds() {
   const oddsList = document.getElementById("odds-board");
-  oddsList.innerHTML =
-::contentReference[oaicite:5]{index=5}
- 
+  oddsList.innerHTML = "";
+  Object.keys(odds).forEach(golfer => {
+    const li = document.createElement("li");
+    li.textContent = `${golfer}: ${odds[golfer]}`;
+    oddsList.appendChild(li);
+  });
+}
+
+window.onload = function () {
+  loadOdds();
+  updateUI();
+};
