@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Masters Pick 'Em</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Masters Pick 'Em</h1>
+  <div id="current-turn"></div>
+  <div id="pick-form">
+    <label for="golfer-select">Choose your pick:</label><br />
+    <select id="golfer-select"></select><br />
+    <button onclick="makePick()">Lock In Pick</button>
+  </div>
+  <div id="your-picks"></div>
+  <h2>Pick Board</h2>
+  <ul id="pick-board"></ul>
+  <h2>Betting Odds</h2>
+  <ul id="odds-board"></ul>
+  <script src="script.js"></script>
+</body>
+</html>
