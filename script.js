@@ -5,10 +5,10 @@ const bettors = [
 ];
 
 const golfers = [
-  "Scottie Scheffler", "Rory McIlroy", "Jon Rahm", "Collin Morikawa", "Ludvig Åberg",
+  "Scottie Scheffler", "Rory McIlroy", "Jon Rahm", "Collin Morikawa", "Ludvig Aberg",
   "Xander Schauffele", "Bryson DeChambeau", "Justin Thomas", "Brooks Koepka",
   "Hideki Matsuyama", "Jordan Spieth", "Viktor Hovland", "Tommy Fleetwood",
-  "Patrick Cantlay", "Joaquín Niemann", "Shane Lowry", "Tyrrell Hatton",
+  "Patrick Cantlay", "Joaquin Niemann", "Shane Lowry", "Tyrrell Hatton",
   "Will Zalatoris", "Min Woo Lee", "Cameron Smith", "Russell Henley",
   "Robert MacIntyre", "Akshay Bhatia", "Tony Finau", "Corey Conners",
   "Wyndham Clark", "Jason Day", "Sepp Straka", "Sahith Theegala", "Dustin Johnson",
@@ -23,7 +23,7 @@ const odds = {
   "Rory McIlroy": "+650",
   "Jon Rahm": "+1300",
   "Collin Morikawa": "+1800",
-  "Ludvig Åberg": "+2200",
+  "Ludvig Aberg": "+2200",
   "Xander Schauffele": "+1800",
   "Bryson DeChambeau": "+2000",
   "Justin Thomas": "+2500",
@@ -33,7 +33,7 @@ const odds = {
   "Viktor Hovland": "+4000",
   "Tommy Fleetwood": "+4000",
   "Patrick Cantlay": "+4000",
-  "Joaquín Niemann": "+4000",
+  "Joaquin Niemann": "+4000",
   "Shane Lowry": "+3500",
   "Tyrrell Hatton": "+5500",
   "Will Zalatoris": "+6000",
